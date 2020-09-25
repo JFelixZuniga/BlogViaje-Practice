@@ -1,15 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Blog Viajes</title>
-   <!-- Normalize CSS -->
-   <link rel="stylesheet" href="./css/normalize.css">
-   <!-- Custom CSS -->
-   <link rel="stylesheet" href="./css/styles.css">
-</head>
-<body>
-   
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Viajes</title>
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/831828963b.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="site-header contenedor">
+      <picture>
+        <img src="./img/logo.png" alt="Logo Blog" />
+      </picture>
+    </header>
+
+    <div class="barra">
+      <a href="#nav" class="mobile-menu">
+        <i class="fas fa-ellipsis-v"></i>
+      </a>
+      <nav id="nav" class="navegacion-principal contenedor">
+        <a href="#">Inicio</a>
+        <a href="#">Nosotros</a>
+        <a href="#">Blog</a>
+        <a href="#">Tienda Virtual</a>
+        <a href="#">Contacto</a>
+        <a href="#" class="cerrar">
+          <i class="fas fa-times"></i>
+        </a>
+      </nav>
+    </div>
+
+    <div class="contenedor">
+      <div class="grid-contenedor">
+        <main class="contenido-principal">
+          <article class="entrada">
+            <h2>Viajar a Londres</h2>
+            <img src="./img/imagen_1.jpg" alt="Imagen viaje a Londres" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad,
+              quos, dolor excepturi nostrum eveniet eos qui laborum repellat nam
+              omnis Ad, quos, dolor excepturi nostrum eveniet eos qui laborum
+              repellat nam omnis Ad, quos, dolor excepturi nostrum eveniet eos
+              qui laborum repellat nam omnis id doloremque ratione, deleniti ab.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad,
+              quos, dolor excepturi nostrum eveniet eos qui laborum repellat nam
+              Ad, quos, dolor excepturi nostrum eveniet eos qui laborum repellat
+              nam omnis omnis id doloremque ratione, deleniti ab.
+            </p>
+            <a href="#" class="btn">Leer Más</a>
+          </article>
+          <article class="entrada">
+            <h2>Puente de la Torre</h2>
+            <img src="./img/imagen_2.jpg" alt="Imagen puente de la Torre" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad,
+              quos, dolor excepturi nostrum eveniet eos qui laborum repellat nam
+              omnis Ad, quos, dolor excepturi nostrum eveniet eos qui laborum
+              repellat nam omnis Ad, quos, dolor excepturi nostrum eveniet eos
+              qui laborum repellat nam omnis id doloremque ratione, deleniti ab.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad,
+              quos, dolor excepturi nostrum eveniet eos qui laborum repellat nam
+              Ad, quos, dolor excepturi nostrum eveniet eos qui laborum repellat
+              nam omnis omnis id doloremque ratione, deleniti ab.
+            </p>
+            <a href="#" class="btn">Leer Más</a>
+          </article>
+          <article class="entrada">
+            <h2>Metro de Londres</h2>
+            <img src="./img/imagen_3.jpg" alt="Imagen metro de Londres" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad,
+              quos, dolor excepturi nostrum eveniet eos qui laborum repellat nam
+              omnis Ad, quos, dolor excepturi nostrum eveniet eos qui laborum
+              repellat nam omnis Ad, quos, dolor excepturi nostrum eveniet eos
+              qui laborum repellat nam omnis id doloremque ratione, deleniti ab.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad,
+              quos, dolor excepturi nostrum eveniet eos qui laborum repellat nam
+              Ad, quos, dolor excepturi nostrum eveniet eos qui laborum repellat
+              nam omnis omnis id doloremque ratione, deleniti ab.
+            </p>
+            <a href="#" class="btn">Leer Más</a>
+          </article>
+        </main>
+
+        <aside class="sidebar">
+          <section class="otras-entradas">
+            <h2>Otros posts</h2>
+            <ul>
+              <li><a href="#">Entrada 1</a></li>
+              <li><a href="#">Entrada 2</a></li>
+              <li><a href="#">Entrada 3</a></li>
+              <li><a href="#">Entrada 4</a></li>
+            </ul>
+          </section>
+        </aside>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer-sitio">
+      <div class="contenedor footer-contenedor">
+        <section class="nosotros">
+          <h2>Sobre Nosotros</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et iure
+            itaque adipisci. Perspiciatis officia adipisci mollitia repellat,
+            similique beatae aut?
+          </p>
+        </section>
+        <section class="menu">
+          <h2>Menú de Navegación</h2>
+          <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Nosotros</a>
+            <a href="#">Blog</a>
+            <a href="#">Tienda Virtual</a>
+            <a href="#">Contacto</a>
+          </nav>
+        </section>
+      </div>
+    </footer>
+  </body>
 </html>
